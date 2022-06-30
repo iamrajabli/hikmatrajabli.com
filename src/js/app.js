@@ -2,8 +2,7 @@
 
 const burger = document.querySelector('#navbar i'),
     dropMenu = document.querySelector('#navbar ul'),
-    dropCircleMenu = document.querySelectorAll('#navbar ul li'),
-    circle = document.querySelector('.circle');
+    dropCircleMenu = document.querySelectorAll('#navbar ul li');
 
 
 function hideCircle() {

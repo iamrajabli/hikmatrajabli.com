@@ -9,7 +9,8 @@
 
     ul {
         gap: $gap-xxl;
-
+        display: $flex;
+        justify-content: flex-end;
         a {
             color: $c-white;
             text-decoration: none;
