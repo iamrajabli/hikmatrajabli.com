@@ -9,17 +9,30 @@
 
     h1 {
         min-width: 100%;
-        border: 1px solid white;
         font-size: 35px;
         color: $c-white;
         text-transform: uppercase;
         margin-bottom: $margin-lg;
+        line-height: $line-height-lg;
     }
 
     p {
         font-size: $font-size-lg;
         color: $c-white;
         text-transform: uppercase;
+        line-height: $line-height-lg;
+    }
+}
+
+@media (max-width: 380px) {
+    #main {
+        h1 {
+            font-size:14px !important;
+        }
+
+        p {
+            font-size:11px !important;
+        }
     }
 }
 
