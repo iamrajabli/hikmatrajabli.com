@@ -410,6 +410,14 @@ table {
   height: 100%;
 }
 
+.gap-50 {
+  gap: 50px;
+}
+
+.gap-100 {
+  gap: 100px;
+}
+
 html {
   font-size: 16px;
   font-family: "Montserrat";
@@ -638,6 +646,124 @@ html {
   #main img {
     width: 350px;
     height: 350px;
+  }
+}
+
+#about {
+  margin: 100px 0;
+}
+
+#about .navbar__title {
+  width: 300px;
+  border-bottom: 2px solid #313131;
+  padding: 1rem 0;
+  position: relative;
+}
+
+#about .navbar__title h1 {
+  font-weight: 800;
+  font-size: 1.725rem;
+}
+
+#about .navbar__title::after {
+  position: absolute;
+  content: '';
+  width: 70px;
+  height: 6px;
+  background-color: #000000;
+  top: 97%;
+  left: 0;
+}
+
+#about img {
+  width: 370px;
+  height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px;
+}
+
+#about p {
+  margin: 1.725rem 0;
+  width: 95%;
+  line-height: 1.725rem;
+}
+
+#about .about__social {
+  padding: 1rem 0;
+}
+
+#about .about__social a {
+  font-size: 1.725rem;
+  color: #000000;
+  margin-right: 0.75rem;
+  text-decoration: none;
+}
+
+#about .about__main {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  #about img:first-child {
+    display: none;
+  }
+  #about .about__main {
+    display: block;
+    width: 100%;
+    height: 250px;
+  }
+  #about h1 {
+    font-size: 25px !important;
+  }
+  #about p {
+    font-size: 12px !important;
+  }
+  #about .row {
+    display: block !important;
+  }
+  #about .row > div {
+    margin-bottom: 1.725rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  #about img:first-child {
+    display: none;
+  }
+  #about .about__main {
+    display: block;
+    width: 100%;
+    height: 350px;
+  }
+  #about h1 {
+    font-size: 1.25rem;
+  }
+  #about .row {
+    display: block !important;
+  }
+  #about .row > div {
+    margin-bottom: 1.725rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  #about img:first-child {
+    display: none;
+  }
+  #about .about__main {
+    display: block;
+    width: 720px;
+    height: 350px;
+  }
+  #about h1 {
+    font-size: 1.25rem;
+  }
+  #about .row {
+    display: block !important;
+  }
+  #about .row > div {
+    margin-bottom: 1.725rem;
   }
 }
 /*# sourceMappingURL=main.min.css.map */
