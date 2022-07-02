@@ -911,6 +911,8 @@ html {
 
 #portfolios {
   margin: 100px 0;
+  background-color: #eff0f1;
+  padding: 2.5rem 0;
 }
 
 #portfolios .portfolios__header {
