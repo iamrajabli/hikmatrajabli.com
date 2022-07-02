@@ -1,5 +1,15 @@
 #skills {
-    margin-bottom: 100px;
+
+    .container {
+        >h1 {
+            text-transform: uppercase;
+            margin-bottom: 50px;
+            font: {
+                weight: $font-weight-700;
+                size: $font-size-xl;
+            }
+        }
+    }
 
     .skills__icon {
         width: 100%;
@@ -66,7 +76,7 @@
             }
 
             p {
-                font-size:15px;
+                font-size: 15px;
             }
         }
 

@@ -13,18 +13,10 @@
                 weight: $font-weight-800;
                 size: $font-size-xl
             }
-
-
         }
 
         &::after {
-            position: absolute;
-            content: '';
-            width: 70px;
-            height: 6px;
-            background-color: $c-dark;
-            top: 97%;
-            left: 0;
+            @include line();
         }
     }
 
