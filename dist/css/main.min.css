@@ -435,6 +435,25 @@ table {
   position: absolute;
 }
 
+.web__social {
+  padding: 1rem 0;
+}
+
+.web__social a {
+  font-size: 1.725rem;
+  color: #000000;
+  margin-right: 1rem;
+  text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0);
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  padding: 0.75rem;
+}
+
+.web__social a:hover {
+  border: 1px solid #c5c5c5;
+}
+
 html {
   font-size: 16px;
   font-family: "Montserrat";
@@ -710,25 +729,6 @@ html {
   line-height: 1.725rem;
 }
 
-#about .about__social {
-  padding: 1rem 0;
-}
-
-#about .about__social a {
-  font-size: 1.725rem;
-  color: #000000;
-  margin-right: 1rem;
-  text-decoration: none;
-  border: 1px solid rgba(0, 0, 0, 0);
-  -webkit-transition: all 200ms linear;
-  transition: all 200ms linear;
-  padding: 0.75rem;
-}
-
-#about .about__social a:hover {
-  border: 1px solid #c5c5c5;
-}
-
 #about .about__main {
   display: none;
 }
@@ -970,5 +970,53 @@ html {
   #portfolios .portfolios__item {
     width: 100%;
   }
+}
+
+#address .address__header {
+  width: 300px;
+  border-bottom: 2px solid #313131;
+  padding: 1rem 0;
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+#address .address__header h1 {
+  font-weight: 800;
+  font-size: 1.725rem;
+}
+
+#address .address__header::after {
+  position: absolute;
+  content: '';
+  width: 70px;
+  height: 6px;
+  background-color: #000000;
+  top: 97%;
+  left: 0;
+}
+
+#address .address__container p {
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+#footer {
+  background-color: #eff0f1;
+  margin-top: 2.5rem;
+}
+
+#footer img {
+  width: 70px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#footer p {
+  font-weight: 500;
+}
+
+#footer p a {
+  color: #424242;
 }
 /*# sourceMappingURL=main.min.css.map */
